@@ -95,89 +95,109 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
-header {
-    position: fixed;
-    background-color: lightgreen;
-    border: 1px solid gray;
-    border-radius: 3px;
-    padding: 5%;
-    padding-bottom: .05%;
-    padding-top: .05%;
-    min-width: 100%;
-    max-height: 30%;
+   /* ========================================================
+   colors: #ODFF93 Light Green header
+           #6ab47b  Dark Green Nav Buttons
+           #A36AFF H2 Color
+           #94A69B Button Border
+           #A4A680 Background Color
+           #0ACC76 Footer Color
+           #2D7F5B H3 Color
+   ===========================================================*/
+h1 {
+  display: block;
+  margin-left: 10px;
+  font-family: "Arial Black", Serif;
+  font-weight: bolder;
+  color: #2D7F5B;
 }
 
+h2 {
+  font-family: "Verdana", Serif;
+}
+h3 {
+  color: #A36AFF;
+  font-family: "Comic Sans MS", Serif;
+}
 
-article {
+p {
+  font-family: "Comic Sans MS", Serif;
+}
+
+footer {
+  display: flex;
+    align-items: center;
+    justify-content: center;
+  background-color: #0ACC76
+  
+}
+
+section {
+  margin-top: 50px;
+  margin-left: 10px;
+  padding-right: 1%;
+}
+.header {
+  position:fixed;
+  display: block;
+  padding-top: 0px;
+  background-color: #0DFF93;
+  min-width: 100%;
+  border-top: 5px solid gray;
+  border-bottom: 5px solid gray;
+}
+
+.contentflex {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  align-content:flex-start;
+  padding-top: 190px;
+  background-color: #A4A680
+}
+
+.article {
+  display: inline-block;
   background-color: ivory;
   border: 1px solid gray;
   border-radius: 3px;
-  margin-top: 2rem;
-  margin-left 15%;
+  margin: 5px;
   padding: 1.9rem;
   padding-bottom: .05rem;
   padding-top: .05rem;
-  width: 20.8rem;
-}
-
-dd {
-    display: list-item;
-    list-style-type: disc;
-    }
-
-.style1 {
-    display: inline-block;
-    list-style: none;
-    margin: .2%;
-    padding: .2%;
-}
-
-.style2 {
-    display: inline-block;
-    list-style: none;
-    margin: .2%;
-    padding: .2%;
-}
-
-.flexContainer {
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-around;
-    align-content:flex-start;
-    padding-top: 23%;
+  max-width: 333px;
+  margin-left: 1%;
 }
 
 h2:before { 
   display: block; 
   content: " "; 
-  margin-top: -285px; 
-  height: 285px; 
+  margin-top: -16.5rem; 
+  height: 16.5rem; 
   visibility: hidden; 
 }
 
-.redText {
-  color: red;
-}
-.blueText {
-  color: blue;
-}
-.greenText {
-  color: green;
+
+.listyle1 {
+    display: inline-block;
+    padding-left: 5px;
 }
 
-.sentanceUnderline {
-  text-decoration: underline;
+.listyle2 {
+    display: inline-block;
+    list-style: none;
+    margin-left: 3px;
+    padding: 2px;
+    background-color: #6ab47b;
+    border: 1px #94A69B;
 }
 
-.linethruText {
-  text-decoration: line-through;
+.noline {
+  text-decoration: none;
 }
-footer {
-    background-color:white;
-    color:black;
-    clear:both;
-    text-align:center;
-    padding:5px;   
+
+
+
 
 
 /* ==========================================================================
