@@ -128,8 +128,7 @@ footer {
   display: flex;
     align-items: center;
     justify-content: center;
-  background-color: #0ACC76
-  
+  background-color: #0ACC76 
 }
 
 section {
@@ -137,6 +136,7 @@ section {
   margin-left: 10px;
   padding-right: 1%;
 }
+
 .header {
   position:fixed;
   display: block;
@@ -151,7 +151,7 @@ section {
   display: flex;
   flex-flow: row wrap;
   justify-content: space-around;
-  align-content:flex-start;
+  align-content:flex-end;
   padding-top: 190px;
   background-color: #A4A680
 }
@@ -194,6 +194,23 @@ h2:before {
 
 .noline {
   text-decoration: none;
+}
+
+.redText {
+  color: red;
+}
+.blueText {
+  color: blue;
+}
+.greenText {
+  color: green;
+}
+.sentanceUnderline {
+  text-decoration: underline;
+}
+
+.linethruText {
+  text-decoration: line-through;
 }
 
 
