@@ -96,15 +96,40 @@ textarea {
    ========================================================================== */
 
    /* ========================================================
-   colors: #ODFF93 Green header
-           #6ab47b Green Nav Buttons
-           #A36AFF Text
+   colors: #ODFF93 Light Green header
+           #6ab47b  Dark Green Nav Buttons
+           #A36AFF H2 Color
            #94A69B Button Border
+           #A4A680 Background Color
+           #0ACC76 Footer Color
+           #2D7F5B H3 Color
    ===========================================================*/
+h1 {
+  display: block;
+  margin-left: 10px;
+  font-family: "Arial Black", Serif;
+  font-weight: bolder;
+  color: #2D7F5B;
+}
+
+h2 {
+  font-family: "Verdana", Serif;
+}
+h3 {
+  color: #A36AFF;
+  font-family: "Comic Sans MS", Serif;
+}
+
+p {
+  font-family: "Comic Sans MS", Serif;
+}
+
 footer {
   display: flex;
-  align-items: center;
-  justify-content: center;
+    align-items: center;
+    justify-content: center;
+  background-color: #0ACC76
+  
 }
 
 section {
@@ -128,6 +153,7 @@ section {
   justify-content: space-around;
   align-content:flex-start;
   padding-top: 190px;
+  background-color: #A4A680
 }
 
 .article {
