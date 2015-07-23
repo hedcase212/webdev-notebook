@@ -94,15 +94,29 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+
+   /* ========================================================
+   colors: #ODFF93 Green header
+           #6ab47b Green Nav Buttons
+           #A36AFF Text
+           #94A69B Button Border
+   ===========================================================*/
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 section {
   margin-top: 50px;
   margin-left: 10px;
+  padding-right: 1%;
 }
 .header {
   position:fixed;
   display: block;
   padding-top: 0px;
-  background-color: lightgreen;
+  background-color: #0DFF93;
   min-width: 100%;
   border-top: 5px solid gray;
   border-bottom: 5px solid gray;
@@ -113,7 +127,7 @@ section {
   flex-flow: row wrap;
   justify-content: space-around;
   align-content:flex-start;
-  padding-top: 171px;
+  padding-top: 190px;
 }
 
 .article {
@@ -125,33 +139,31 @@ section {
   padding: 1.9rem;
   padding-bottom: .05rem;
   padding-top: .05rem;
-  width: 300px;
+  max-width: 333px;
+  margin-left: 1%;
 }
 
 h2:before { 
   display: block; 
   content: " "; 
-  margin-top: -15rem; 
-  height: 15rem; 
+  margin-top: -16.5rem; 
+  height: 16.5rem; 
   visibility: hidden; 
 }
 
 
-
 .listyle1 {
     display: inline-block;
-    list-style: none;
-    margin-left: 15%;
-    padding-left: 0px;
+    padding-left: 5px;
 }
 
 .listyle2 {
     display: inline-block;
     list-style: none;
-    margin-left: 3px%;
+    margin-left: 3px;
     padding: 2px;
     background-color: #6ab47b;
-    border: 1px solid green;
+    border: 1px #94A69B;
 }
 
 .noline {
