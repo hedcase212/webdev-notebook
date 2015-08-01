@@ -114,8 +114,8 @@ body {
     font-family: 'Montalban','Marker Felt',Sans-serif;
 }
 article {
-    background: -webkit-linear-gradient(200deg, #465E72, #9BD1FE);
-    background: linear-gradient(200deg,#465E72,#9BD1FE);
+    background: -webkit-linear-gradient(30deg, #465E72, #9BD1FE);
+    background: linear-gradient(30deg,#465E72,#9BD1FE);
     border: 1px solid grey;
     border-radius: 5px;
     padding: 1rem;
