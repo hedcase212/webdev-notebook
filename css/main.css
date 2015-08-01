@@ -101,6 +101,11 @@ textarea {
 h3 {
     color:#465E72;
 }
+h2 {
+    /*color: #94C7F2;*/
+    margin-left: 8rem;
+    color: #0F4873;
+}
 
 body {
     background: -webkit-linear-gradient(90deg,#209AF2,#074472);
@@ -139,7 +144,7 @@ footer {
     -webkit-align-content: center;
     -ms-flex-line-pack: center;
     align-content: center;
-    margin-top: 8em;
+    margin-top: 5em;
 
 }
 
@@ -170,7 +175,8 @@ nav li {
 }
 
 h1 {
-    color: #94C7F2;
+    /*color: #94C7F2;*/
+    color:white;
     padding-left: 2rem;
     padding-right: 2rem;
 }
@@ -202,18 +208,6 @@ h2:before {
     -webkit-justify-content: space-around;
     -ms-flex-pack: distribute;
     justify-content: left;
-}
-.flexcenter {
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-flex-flow: row wrap;
-    -ms-flex-flow: row wrap;
-    flex-flow: row wrap;
-    -webkit-justify-content: space-around;
-    -ms-flex-pack: distribute;
-    justify-content: center;
 }
 
 .sectionstyle {
