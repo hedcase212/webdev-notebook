@@ -144,7 +144,7 @@ footer {
     -webkit-align-content: center;
     -ms-flex-line-pack: center;
     align-content: center;
-    margin-top: 5em;
+    margin-top: 9em;
 
 }
 
@@ -177,7 +177,7 @@ nav li {
 h1 {
     /*color: #94C7F2;*/
     color:white;
-    padding-left: 2rem;
+    padding-left: 1rem;
     padding-right: 2rem;
 }
 
@@ -188,6 +188,7 @@ header {
     width: 100%;
     border: 1px solid grey;
     border-radius: 5px;
+    z-index: 1;
 }
 
 h2:before {
@@ -228,10 +229,23 @@ h2:before {
 }
 
 .linkcolor {
-    color:#0F4873;
+    color: #0F4873;
 }
 
-
+.logo {
+    margin: 25%;
+    padding-left: 5%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+.mapstyle {
+    margin-left:5%;
+    padding-top: 0em;
+    z-index: 0;
+    color: #074574;
+    border: 3px solid #074574;
+    border-radius: 5px;
+}
 
 
 
