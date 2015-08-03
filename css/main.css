@@ -99,15 +99,17 @@ textarea {
    
    ========================================================================== */
 @font-face {
-    font-family: 'Montalban';
-    src: url ('img/Montalban.eot');
+    font-family: 'montalban-webfont','Montalban','Marker Felt',Sans-serif;
+    src: url ('fonts/montalban-webfont.eot');
+    src: url ('fonts/montalban-webfont.eot?#iefix')format('embedded-opentype'),url ('fonts/montalban-webfont.woff')format('woff'),url ('fonts/montalban-webfont.ttf')format('truetype'),url ('fonts/montalban-webfont.svg#montalban-webfont')format('svg');
 }
+
 
 body {
     background: -webkit-linear-gradient(90deg,#209AF2,#074472);
     background: linear-gradient(90deg,#209AF2,#074472);
     color: white;
-    font-family: 'Montalban','Marker Felt',Sans-serif;
+    font-family: 'montalban-webfont','Montalban','Marker Felt',Sans-serif;
 }
 
 header {
@@ -129,7 +131,7 @@ article {
     padding-top: 0rem;
     max-width: 22em;
     color: lightgrey;
-    font-family: 'Montalban','Marker Felt';
+    font-family: 'montalban-webfont','Montalban','Marker Felt';
     margin-bottom: 1rem;
     margin: .7em;
     z-index: 1:;
@@ -178,7 +180,7 @@ li a {
 
 nav li {
     display: inline-block;
-    font-family: 'Montalban', 'Marker Felt';
+    font-family: 'montalban-webfont','Montalban', 'Marker Felt';
 }
 
 .flexleft {
